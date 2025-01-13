@@ -12,28 +12,18 @@ This repository contains a PHP script that implements a basic API for managing s
 
 ## Requirements
 
-- PHP 7.4+
-- MySQL 5.7+
+- PHP
+- MySQL
 - A web server like Apache or Nginx
 
 ## Setup Instructions
 
 1. **Clone the Repository**  
    ```bash
-   git clone https://github.com/your-username/student-management-api.git
-   cd student-management-api
+   git clone (https://github.com/arsamawan/CRUD-studentManagement.git)
    ```
 
 2. **Set Up the Database**  
-   Create a MySQL database named `sob` and a table named `studentss` with the following structure:  
-   ```sql
-   CREATE TABLE studentss (
-       id INT AUTO_INCREMENT PRIMARY KEY,
-       name VARCHAR(100),
-       address VARCHAR(255),
-       phone VARCHAR(15)
-   );
-   ```
 
 3. **Configure the Database Connection**  
    Update the database connection details in the PHP script if necessary:  
@@ -78,7 +68,6 @@ This repository contains a PHP script that implements a basic API for managing s
    - **PUT**: Update an existing student record by ID.  
    - **DELETE**: Remove a student record by ID.  
 
-   Uncomment the relevant sections in the script to enable these features.
 
 ## Notes
 
